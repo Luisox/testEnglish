@@ -1,0 +1,49 @@
+page-home {
+
+.titulo {
+	text-align: center;
+	color: #F92C2C;
+	margin-top: 30%;
+
+}
+
+.parrafo {
+	text-align: center;
+	color: white;
+}
+  
+
+.positionButtons {
+	margin-top: 20%;
+}
+
+.logoHome {
+	opacity: 0.5;
+/*	width: 1000px;
+	height: 100px;
+*/}
+
+.logoHomeSize {
+	width: 100px;
+	height: 10px;
+}
+
+.buttons {
+	/*margin-top: 90%;*/
+	background-color: transparent;
+	border: 1px solid;
+}
+	.buttons:hover {
+		background-color: black;
+		color: white;
+	}
+
+.backgroundHome {
+  /*background-color: red;*/
+  background-image: url('../assets/imgs/instituto2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+}

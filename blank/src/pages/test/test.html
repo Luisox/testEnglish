@@ -1,0 +1,40 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Test</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding class="fondo">
+	
+	<div>
+		<h1 style="text-align: center;">EMPEZAR</h1>
+		<b style="text-align: center;">Por favor, introduce tus datos para calcular los puntos y hacerte llegar un correo con los resultados del test.</b>
+
+<ion-list>
+
+  <ion-item>
+    <ion-label floating>Nombre:</ion-label>
+    <ion-input type="text"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label floating>Apellidos:</ion-label>
+    <ion-input type="text"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label floating>Correo electrónico:</ion-label>
+    <ion-input type="email"></ion-input>
+  </ion-item>
+
+</ion-list>
+
+	<p>No usar traductor para realizar este examen</p>
+	<button ion-button block color="danger" (click)='goToExamen()'>TOMA EL EXAMEN</button>
+	</div>
+
+
+</ion-content>
